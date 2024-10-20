@@ -4,6 +4,9 @@ import matplotlib.pyplot as plt
 from wordcloud import WordCloud
 import re
 
+st.sidebar.markdown('Page 3: Dashboard :woman-raising-hand:')
+
+
 # Fungsi untuk cleansing text
 def cleansing(sent):
     string = sent.lower()
@@ -15,7 +18,8 @@ def cleansing(sent):
     return string
 
 # Judul halaman
-st.title('NLP Dashboard - Sentiment Analysis')
+st.title('NLP Dashboard :bar_chart:')
+st.write('Ini adalah data yang telah diolah, sehingga bisa menjadi lebih mudah dibaca dan dipahami.')
 
 # Upload dataset
 # uploaded_file = st.file_uploader("Upload dataset CSV", type="csv")
