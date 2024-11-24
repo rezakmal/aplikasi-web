@@ -1,0 +1,20 @@
+# Mengabaikan folder .idea (biasanya pengaturan IDE)
+.idea/
+
+# Mengabaikan virtual environment Python
+.venv/
+
+# Mengabaikan semua folder week
+week7/
+week8/
+week8-new/week10-image-classification/readme[1].txt
+week8-new/
+week9/
+week10-image-classification/
+week10-image-classification - Copy/
+corn_leaf_disease/
+final_project/
+final_project_new/
+
+# final project
+final_project/archive.zip/
